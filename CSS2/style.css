@@ -1,0 +1,31 @@
+body {
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    margin: 0px 100px 0px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #imagem {
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 750px;
+    width: 1000px;
+    height: 750px;
+  }
+  
+  #texto {
+    background-color: rgb(255, 255, 255, 0.75);
+    border: 20px solid #a27f61;
+    padding: 0px 5px 0px;
+    border-radius: 25px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+  }
