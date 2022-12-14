@@ -1,0 +1,14 @@
+Erro 1: Formatação errada do comentário na linha 04. 
+            A forma correta de formatar no HTML é <!--(conteudo)--!>
+
+Erro 2: Formatação de estilização na linha 09.
+            Está fazendo associação incorreta quanto ao uso do CSS, pois está usando ' = '(igual)
+            para atribuir valor, mas o correto é usar ' : '(dois pontos).
+
+Erro 3: Formatação do uso do HTML na liha 17
+            A tag <strong> está aberta porem a mesma não em fechada em nenhuma parte do 
+            paragrafo, para fechar é só ultilizar </strong>.
+
+Erro 4: Uso incorreto do Javascript na linha 26
+            Tem-se o uso incorreto de 'that' pois está sendo usando para referenciar ao proprio objeto.
+            Pode-se trocar o 'that' por 'this' para corrigir o erro de referenciamento do mesmo objeto.

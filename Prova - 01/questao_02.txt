@@ -1,0 +1,7 @@
+Esses são os seletores.
+
+p .cl1 {}
+
+span{}
+
+p> .cl1{}
