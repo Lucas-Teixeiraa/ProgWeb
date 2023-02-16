@@ -1,0 +1,19 @@
+input {
+    width: 20px;
+  }
+  
+  #barra1, #barra2, #barra3, #barra4, #barra5 {
+    background-color: red;
+    transition: 0.5s;
+    margin: 0px 3px;
+  }
+  
+  #Desenhar {
+    margin: 10px 0px;
+  }
+  
+  #Container {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+  }
