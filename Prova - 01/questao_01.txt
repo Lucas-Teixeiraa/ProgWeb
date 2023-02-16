@@ -1,3 +1,6 @@
+Essas respostas são de outra prova, dada em um ano anterior.
+Nota: 0.0
+
 Erro 1: Formatação errada do comentário na linha 04. 
             A forma correta de formatar no HTML é <!--(conteudo)--!>
 
