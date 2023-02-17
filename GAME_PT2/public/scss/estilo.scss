@@ -1,0 +1,83 @@
+body{
+	background: #063535;
+}
+
+#jogo{
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	align-items: center;
+
+}
+
+#Cabecalho{
+	display: block;
+	width: 620px;
+	height: 57px;
+	right: -235px;
+	position: relative; 
+
+}
+
+.reserva {
+  background-image: url('../img/reserva.png');
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border: 5px solid #000;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.foco-incendio {
+  background-image: url('../img/foco.gif');
+  position: absolute;
+  z-index: 3;
+  background-size: cover;
+}
+
+.vidas {
+	background-image: url('../img/arvore.png');
+	display: inline-block;
+	position: initial;
+	overflow: hidden;
+	background-size: cover;
+}
+
+.pontuacao{
+	display: block;
+	position: relative;
+	font-size: 30px;
+	background-size: cover;
+}
+
+.devastacao-incendio{
+	background-image: url('../img/devastacao.png');
+  	position: absolute;
+	z-index: 2;
+	background-size: cover;  
+}
+
+.gameOver{
+	font-size: 60px;
+	font-style: oblique;
+	color: #460505;
+	z-index: 3;
+	position: absolute;
+	top: 40%;
+}
+
+.caveira{
+	background-image: url('../img/caveira.gif');
+  	position: absolute;
+	z-index: 2;
+	background-size: cover;
+
+}
+.devastacao-caveira{
+	background-image: url('../img/devastacao.png');
+  	position: absolute;
+	z-index: 2;
+	background-size: cover;  
+}
