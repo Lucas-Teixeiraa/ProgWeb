@@ -1,3 +1,6 @@
+Todos os seletores estão corretos.
+Nota: 2.0
+
 Esses são os seletores.
 
 p .cl1 {}
