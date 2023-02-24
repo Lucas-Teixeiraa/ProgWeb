@@ -14,15 +14,22 @@
     "@fortawesome/fontawesome-free": "^6.2.1",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
     "handlebars": "^4.7.7",
     "jquery": "^3.6.3",
     "morgan": "^1.10.0",
+    "mysql2": "^3.1.2",
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20",
     "npm": "^9.3.0",
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "sequelize": "^6.29.0",
+    "sequelize-cli": "^6.6.0",
+    "uuid": "^9.0.0"
   }
 }

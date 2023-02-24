@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#space {
+  background-image: url("../img/starBackground.png");
+  position: relative;
+  overflow: hidden;
+  margin-left: 400px;
+  width: 620px;
+  height: 92vh;
+}
+
+#ship {
+  position: absolute;
+  bottom: 20px;
+  left: 270px;
+}
+
+.enemy-ship {
+  position: absolute;
+}
+
+#lifes {
+  width: 30%;
+  height: 50px;
+  float: right;
+  margin-right: 10px;
+}
+
+#score {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  /* font-family: 'Press Start 2P', cursive; */
+  font-weight: 700;
+  color: white;
+  float: right;
+}
+
+@keyframes damaged {
+  0% {opacity: 1;}
+  50% {opacity: 0.3;}
+}
+
+.containerTop {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 10px;
+}
+
+#pop-up {
+  display: none;
+  background-color: #36233dDD;
+  box-shadow: 15px 15px 15px 1px rgba(33, 33, 33, 0.3);
+  visibility: hidden;
+  position: absolute;
+  top: 28%;
+  left: 50px;
+  width: 520px;
+  height: 300px;
+  border-radius: 50px;
+  z-index: 1;
+  font-size: 30px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  gap: 60px;
+}
+
+#restart {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  cursor: pointer;
+  color: #36233d;
+}
+
+#p-start {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 45%;
+  left: 60px;
+  animation: damaged 0.9s infinite;
+  z-index: 1;
+}
+
+footer{
+  position: relative;
+  font-size: 8px;
+}

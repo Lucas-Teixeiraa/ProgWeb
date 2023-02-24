@@ -3,7 +3,7 @@ const logger = require("morgan");
 const handlebars = require("express-handlebars");
 const sass = require("node-sass-middleware");
 const dotenv = require("dotenv");
-const router = require("../GAME/config/router");
+const router = require("../GAME_PT2/router/router");
 
 dotenv.config();
 
